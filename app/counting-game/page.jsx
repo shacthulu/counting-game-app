@@ -47,7 +47,7 @@ const CountingGame = () => {
         }
         setOptions(newOptions.sort(() => Math.random() - 0.5));
         setLastClickedIndex(null);
-        setFeedback(null);
+        // setFeedback(null);
     };
 
     const handleOptionClick = (selectedNumber, index) => {
@@ -68,7 +68,7 @@ const CountingGame = () => {
             } else {
                 setTimeout(() => {
                     setCurrentNumber(currentNumber + 1);
-                }, 500);
+                }, 400);
             }
         } else {
             setStreak(0);
@@ -79,7 +79,7 @@ const CountingGame = () => {
             }));
             setTimeout(() => {
                 setLastClickedIndex(null);
-                setFeedback(null);
+                // setFeedback(null);
             }, 1000);
         }
     };
@@ -122,6 +122,7 @@ const CountingGame = () => {
         setStreak(0);
         setScore(0);
         setIncorrectAttempts({});
+        setFeedback(null)
         setIsGameActive(true);
         setCurrentGameId(prev => prev + 1);
         generateOptions();
