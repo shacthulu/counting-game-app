@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Counting to 100 Game
 
-## Getting Started
+## A Saturday Afternoon Project
 
-First, run the development server:
+This project is a simple web-based game designed to help my 5-year-old son practice counting to 100. It was created on a Saturday afternoon as a fun, interactive way to work on a skill his teacher had recommended he improve.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Why
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instead of traditional flashcards or repetitive exercises, I wanted something my son could work on while I helped his other brothers.  It needed to self-grade, keep a history of what caused problems, and have colorful visuals and interaction. He and I sat down and had some fun deciding colors and reactions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Count from 1 to 100 in numbers or words
+- Switch between number mode and word mode
+- Streak counter with star visualization
+- Point system to gamify improvement
+- Tracks numbers that need more practice
+- Game history to see progress over time
 
-## Learn More
+### Technical Details
 
-To learn more about Next.js, take a look at the following resources:
+This game is built using:
+- Next.js
+- TypeScript
+- Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It's a simple, client-side application designed for ease of use and quick iterations as we experimented with different features.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Not for Distribution
 
-## Deploy on Vercel
+This project is not intended for wide distribution or use. It's a personal, educational tool created specifically for my son. While the code is here for reference, it's tailored to our specific needs and learning goals.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### A Note to Other Parents
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+While you're welcome to look at the code for inspiration, the real value was in the process of creating something together. If you're looking to help your child with counting or any other skill, consider turning it into a collaborative project. The time spent together and the personalized approach can make learning much more enjoyable and effective.
+
+### Acknowledgments
+
+- To my son, for his enthusiasm, creativity, and patience as we worked on this together.
+- To his teacher, for the suggestion that sparked this fun project.
